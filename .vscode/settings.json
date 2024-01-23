@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "udp_communication.h": "c",
+        "winsock2.h": "c",
+        "string.h": "c"
+    }
+}

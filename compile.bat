@@ -1,0 +1,1 @@
+clang google_time.c -o google_time.exe
