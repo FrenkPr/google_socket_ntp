@@ -39,7 +39,7 @@ int main()
 
     printf("time.h epoch day seconds: %llu\n", time_secs);
     printf("google received timestamp seconds: %llu\n\n", google_secs);
-    printf("google received timestamp first 4 left bits: %llu\n\n", ntp_pckt.receive_timestamp & 0x00000000FFFFFFFF);
+    printf("google received timestamp first 4 bits to right: %llu\n\n", ntp_pckt.receive_timestamp & 0x00000000FFFFFFFF);
 
     google_secs -= (3600 * 24 * 365 * (unsigned long long)70) + (3600 * 24 * 30) - (3600 * 24 * 13);
 
